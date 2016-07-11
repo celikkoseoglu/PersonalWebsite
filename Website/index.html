@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Celiks Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+    <script src="https://maps.gstatic.com/maps-api-v3/embed/js/24/11a/intl/de_ALL/init_embed.js"></script>
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <link href="css/agency.css" rel="stylesheet">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+</head>
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Çelik Köseoğlu</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="active" href="#services">Home</a></li>
+                    <li><a href="#portfolio">Apps</a></li>
+                    <li><a href="#about">News</a></li>
+                    <li><a href="#team">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading">I make things</div>
+                <div class="intro-lead-in">Web Design, App Development, Big Data, Parkour, Snowboarding, FPGA, HDL</div>
+                <a href="#" class="box">Resume</a>
+            </div>
+        </div>
+    </header>
+
+    <section style="background: lightskyblue" id="whyADeveloper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Why a developer?</h2>
+                    <p>The answer is curiosity. I started getting fascinated by computers when I was a small child. I am
+                        passionately curious about how software works. And the quality of work and design is
+                        important.</br> <b>Of course this is not the final text</b></br> <b>I'll revise this later</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: darkslategray" id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">some of my projects</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div data-toggle="modal" data-target="#qNoteModal" class="col-md-4">
+                    <img class="img-responsive" src="images/QNote.png" alt="QNote Logo"/>
+                    <h4 class="service-heading">QNote</h4>
+                    <h6>Blazing fast note taking</h6>
+                    <p class="text-muted">It opens in milliseconds and closes when you lock your phone. Perfect for
+                        noting homeworks without
+                        getting the teacher's attention.</p>
+                </div>
+                <div data-toggle="modal" data-target="#ipManaherModal" class="col-md-4">
+                    <img class="img-responsive" src="images/IPManager.png" alt="IPManager Logo"/>
+                    <h4 class="service-heading">IPManager</h4>
+                    <h6>DHCP made easy</h6>
+                    <p class="text-muted">If a workplace uses static IP and the employees carry their computers between
+                        their homes and offices
+                        everyday, it changes DHCP settings automatically.</p>
+                </div>
+                <div data-toggle="modal" data-target="#photoSecModal" class="col-md-4">
+                    <img class="img-responsive" src="images/PhotoSec.png" alt="PhotoSec Logo"/>
+                    <h4 class="service-heading">PhotoSec</h4>
+                    <h6>secure your photos!</h6>
+                    <p class="text-muted">Select some photos from the phone’s gallery and password protect them. Oh, and
+                        there is a fake password feature!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: beige" id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Skills</h2>
+                </div>
+            </div>
+            <div class="row text-justify">
+                <img class="img-responsive col-md-4" src="images/MacBook-Pro-mockup.png">
+                <hgroup class="col-md-8">
+                    <h2>Programming Languages</h2>
+                    <h4>Java, C++, Objective-C &amp; more...</h4>
+                    <p class="smallText">At the age of 13, I started coding with Microsoft SmallBasic. A year later, I
+                        got a C# book and started making Windows Desktop apps. Mobile technologies were rapidly
+                        developing at that time so I made some progess with Mobile Technologies. With the little C#
+                        knowledge I had, I made QNote and PhotoSec for Windows Phone. Then continued on with other
+                        platforms and other technologies. I have some IDE knowledge. Revision required...</p>
+                </hgroup>
+            </div>
+            <div class="row text-justify">
+
+                <hgroup class="col-md-8">
+                    <h2>Design</h2>
+                    <h4>Photoshop, Illustrator &amp; a pencil</h4>
+                    <p class="smallText">At the age of 13, I started coding with Microsoft SmallBasic. A year later, I
+                        got a C# book and started making Windows Desktop apps. Mobile technologies were rapidly
+                        developing at that time so I made some progess with Mobile Technologies. With the little C#
+                        knowledge I had, I made QNote and PhotoSec for Windows Phone. Then continued on with other
+                        platforms and other technologies. I have some IDE knowledge. Revision required...</p>
+                </hgroup>
+                <img class="img-responsive col-md-4" src="images/MacBook-Pro-mockup.png">
+            </div>
+            <div class="row text-justify">
+                <img class="img-responsive col-md-4" src="images/parkour.png">
+                <hgroup class="col-md-8">
+                    <h2>Sports</h2>
+                    <h4>Parkour &amp; Freerunning</h4>
+                    <p class="smallText">After playing tennis for a while during my childhood, I started doing parkour.
+                        Also, we started a student organization which does parkour oriented exercises in school. Isn't
+                        that cool? Revision required here...</p>
+                </hgroup>
+
+            </div>
+        </div>
+    </section>
+
+    <section style="background: lightgreen" id="ongoingProjects">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Ongoing Projects</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/notReady.png" alt="QNote Logo"/>
+                    <h4 class="service-heading">Today's Meal in Marmara</h4>
+                    <h6>meal in a different form</h6>
+                    <p class="text-muted">I wonder if today's meal is delicious or not. I have to check the school's
+                        website and... I wish it came as a notification.</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/websiteCodesIMac.png" alt="IPManager Logo"/>
+                    <h4 class="service-heading">Rocky Journey</h4>
+                    <h6>an FPGA game</h6>
+                    <p class="text-muted">We know how to FPGA, so why not FPGA. A dull but fun to make game. Not fun to
+                        play just yet...</p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-responsive" src="images/websiteCodesIMac.png" alt="PhotoSec Logo"/>
+                    <h4 class="service-heading">A Website</h4>
+                    <h6>a truly personal one</h6>
+                    <p class="text-muted">A lot of effort has been made for this website. Much paperwork & design. I'll
+                        make a seperate section telling how I made this.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--<div style="width: 100%; overflow: hidden; height: 300px;"> gmaps without the address card
+        <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39797.07748547086!2d5.46683904751879!3d51.433965676849986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6d90575ca5e3d%3A0x55989f5f344b006!2sPrins+Hendrikstraat+5!5e0!3m2!1snl!2snl!4v1392716144537"
+                width="100%"
+                height="600"
+                frameborder="0"
+                style="border:0; margin-top: -150px;">
+        </iframe>
+    </div>-->
+
+    <section id="contact">
+        <div class="Flexible-container">
+            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3062.079120100585!2d32.74627655133641!3d39.87246561418693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d347124abb0591%3A0x5ff5bbe4f3812e54!2sBilkent+University!5e0!3m2!1sen!2str!4v1464694033927"></iframe>
+            <div class="container-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="team-member">
+                                <img style="margin-top: 80px" src="https://pbs.twimg.com/profile_images/681597439497879552/EAuKYeT6_400x400.jpg" class="img-responsive img-circle" alt="">
+                                <h4>Çelik Köseoğlu</h4>
+                                <p class="text-muted">Developer</p>
+                                <ul class="list-inline social-buttons">
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-sm-offset-4">
+                            <div class="contact-form">
+                                <h3>Contact Info</h3>
+
+                                <address>
+                                    <strong>Bilkent University</strong><br>
+                                    795 Folsom Ave, Suite 600<br>
+                                    Ankara, Turkey 94107<br>
+                                    <abbr title="Phone">P:</abbr> (123) 456-7890
+                                </address>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Çelik Köseoğlu</span>
+                    <p class="copyright text-muted"><strong>Proudly</strong> designed with Morvaksu</p>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="http://twitter.com/celikkoseoglu"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-envelope"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <span class="copyright">May 2016</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+    <!-- Modals -->
+    <div class="modal fade" id="qNoteModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">My Projects</h4>
+                </div>
+                <div class="modal-body row">
+                    <img style="margin-top: 70px;" src="images/QNote.png" name="aboutme"
+                         class="img-responsive col-md-4"/>
+                    <h3 class="media-heading">QNote</h3>
+                    <h4 class="text-muted">Blazing fast note taking.</h4>
+                    <p>Makes note taking fast, simple and easy on Windows Phone devices. Unlike other note taking apps,
+                        QNote does not require the user to wait for a few seconds to get ready for note taking. It
+                        starts up in milliseconds, the user takes some notes and just locks the phone to close the
+                        application. Perfect for taking quick notes on the go!</p>
+                    <hr>
+                    <span><strong>Technologies Used: </strong></span>
+                    <span class="label label-warning">Microsoft Visual Studio</span>
+                    <span class="label label-info">C# .NET</span>
+                    <span class="label label-info">WPF</span>
+                    <br>
+                    <span><strong>Download for: </strong></span>
+                    <span class="label label-warning">Windows Phone</span>
+                    <span class="label label-info">Windows</span>
+                    <hr>
+                    <span><strong>Screenshots: </strong></span><br>
+                    <img src="https://store-images.s-microsoft.com/image/apps.33276.13510798883027555.c7c88434-62d2-4a0d-96bc-8df0c3cce760.30addeb0-5df9-4d6c-bc54-aa89bb3283d2?w=580&h=326&q=60&mode=letterbox&background=black"
+                         height="120"/>
+                    <img src="https://store-images.s-microsoft.com/image/apps.51470.13510798883027555.a9832685-2e0b-4c53-bc5e-6d37871fd3d2.0db025c6-d0d2-4dd7-8b62-2301bc4b4719?w=580&h=326&q=60&mode=letterbox&background=black"
+                         height="120"/>
+                    <img src="https://store-images.s-microsoft.com/image/apps.30907.13510798883027555.06c1a6aa-6927-460a-a35f-a226d4a8e379.27fcefcc-9e6d-46d5-a16c-61c62ab110e0?w=580&h=326&q=60&mode=letterbox&background=black"
+                         height="120"/>
+                </div>
+                <div class="modal-footer">
+                    <center>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">I'm not interested in this
+                            anymore.
+                        </button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ipManagerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">My Projects</h4>
+                </div>
+                <div class="modal-body row">
+                    <img style="margin-top: 70px;" src="images/QNote.png" name="aboutme"
+                         class="img-responsive col-md-4"/>
+                    <h3 class="media-heading">QNote</h3>
+                    <h4 class="text-muted">DHCP made easy</h4>
+                    <p>If a workplace uses static IP and the employees carry their computers between their homes and
+                        offices everyday, IPManager changes DHCP settings automatically, which saves everyone
+                        approximately one minute per day.</p>
+                    <hr>
+                    <span><strong>Technologies Used: </strong></span>
+                    <span class="label label-warning">Microsoft Visual Studio</span>
+                    <span class="label label-info">C# .NET</span>
+                    <span class="label label-info">WPF</span>
+                    <br>
+                    <span><strong>Download for: </strong></span>
+                    <span class="label label-info">Windows</span>
+                    <hr>
+                    <span><strong>Screenshots: </strong></span><br>
+                    <img src="https://store-images.s-microsoft.com/image/apps.33276.13510798883027555.c7c88434-62d2-4a0d-96bc-8df0c3cce760.30addeb0-5df9-4d6c-bc54-aa89bb3283d2?w=580&h=326&q=60&mode=letterbox&background=black"
+                         height="120"/>
+                    <img src="https://store-images.s-microsoft.com/image/apps.51470.13510798883027555.a9832685-2e0b-4c53-bc5e-6d37871fd3d2.0db025c6-d0d2-4dd7-8b62-2301bc4b4719?w=580&h=326&q=60&mode=letterbox&background=black"
+                         height="120"/>
+                    <img src="https://store-images.s-microsoft.com/image/apps.30907.13510798883027555.06c1a6aa-6927-460a-a35f-a226d4a8e379.27fcefcc-9e6d-46d5-a16c-61c62ab110e0?w=580&h=326&q=60&mode=letterbox&background=black"
+                         height="120"/>
+                </div>
+                <div class="modal-footer">
+                    <center>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">I'm not interested in this
+                            anymore.
+                        </button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="photoSecModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">My Projects</h4>
+                </div>
+                <div class="modal-body row">
+                    <img style="margin-top: 70px;" src="images/QNote.png" name="aboutme"
+                         class="img-responsive col-md-4"/>
+                    <h3 class="media-heading">PhotoSec</h3>
+                    <h4 class="text-muted">Secure your photos!</h4>
+                    <p>Select some photos from the phone’s gallery and password protect them. PhotoSec uses
+                        multi-threading to display and render photos much faster when compared to other similar
+                        applications in the store. Also, it was the 36th most downloaded application from the Windows
+                        Phone Store. PhotoSec was written in C# XAML.</p>
+                    <hr>
+                    <span><strong>Technologies Used: </strong></span>
+                    <span class="label label-warning">Microsoft Visual Studio</span>
+                    <span class="label label-info">C# .NET</span>
+                    <span class="label label-info">WPF</span>
+                    <br>
+                    <span><strong>Download for: </strong></span>
+                    <span class="label label-warning">Windows Phone</span>
+                    <hr>
+                    <span><strong>Screenshots: </strong></span><br>
+                    <img src="https://store-images.s-microsoft.com/image/apps.33276.13510798883027555.c7c88434-62d2-4a0d-96bc-8df0c3cce760.30addeb0-5df9-4d6c-bc54-aa89bb3283d2?w=580&h=326&q=60&mode=letterbox&background=black"
+                         height="120"/>
+                    <img src="https://store-images.s-microsoft.com/image/apps.51470.13510798883027555.a9832685-2e0b-4c53-bc5e-6d37871fd3d2.0db025c6-d0d2-4dd7-8b62-2301bc4b4719?w=580&h=326&q=60&mode=letterbox&background=black"
+                         height="120"/>
+                    <img src="https://store-images.s-microsoft.com/image/apps.30907.13510798883027555.06c1a6aa-6927-460a-a35f-a226d4a8e379.27fcefcc-9e6d-46d5-a16c-61c62ab110e0?w=580&h=326&q=60&mode=letterbox&background=black"
+                         height="120"/>
+                </div>
+                <div class="modal-footer">
+                    <center>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">I'm not interested in this
+                            anymore.
+                        </button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
