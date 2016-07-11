@@ -192,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-image: url(../images/shore.jpg);
+    background-image: url(../images/the_wall.jpg);
     background-attachment: scroll;
     background-position: center center;
     -webkit-background-size: cover;
@@ -565,7 +565,11 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
     padding: 10px;
     border: 2px solid #fff;
-    width: 110px;
+    width: 140px;
+    font-weight: 700;
+    text-shadow: 0 0 30px rgba(150, 150, 150, 1);
+    line-height: 1.4em;
+    color: whitesmoke;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -632,7 +636,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-image: url(../images/shore.jpg);
+    background-image: url(../images/the_wall.JPG);
     background-attachment: scroll;
     background-position: center center;
     -webkit-background-size: cover;
@@ -712,7 +716,7 @@ section h3.section-subheading {
     }
 
     #contact { /*Contact area does not need any padding on full screen. Maps should fit all the available area.*/
-        padding: 0px;
+        padding: 0;
     }
 }
 
