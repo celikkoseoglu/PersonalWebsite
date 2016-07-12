@@ -572,6 +572,11 @@ h1, h2, h3, h4, h5, h6 {
     color: whitesmoke;
 }
 
+.box:hover {
+    border: 2px solid #fed136;
+    text-decoration: none;
+}
+
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff
 }
@@ -828,7 +833,8 @@ footer span.copyright {
 }
 
 ul.social-buttons {
-    margin-bottom: 0
+    margin-bottom: 0;
+    white-space: nowrap
 }
 
 ul.social-buttons li a {
