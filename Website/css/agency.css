@@ -210,7 +210,6 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     font-family: thinFont;
-    line-height: 1.4em;
     font-size: 22px;
     line-height: 22px;
     margin-bottom: 25px
@@ -360,7 +359,6 @@ footer {
 footer span.copyright {
     line-height: 40px;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
     text-transform: none
 }
 
@@ -381,10 +379,6 @@ ul.social-buttons li a {
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s
-}
-
-ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
-    background-color: #fed136
 }
 
 .portfolio-modal .modal-content {
@@ -828,7 +822,6 @@ footer {
 footer span.copyright {
     line-height: 40px;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
     text-transform: none
 }
 
@@ -852,8 +845,28 @@ ul.social-buttons li a {
     transition: all .3s
 }
 
-ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
-    background-color: darkblue
+ul.social-buttons .twitter:hover, ul.social-buttons .twitter:focus, ul.social-buttons .twitter:active {
+    background-color: rgb(85, 172, 238);
+}
+
+ul.social-buttons .facebook:hover, ul.social-buttons .facebook:focus, ul.social-buttons .facebook:active {
+    background-color: rgb(59, 89, 152);
+}
+
+ul.social-buttons .linkedin:hover, ul.social-buttons .linkedin:focus, ul.social-buttons .linkedin:active {
+    background-color: rgb(0, 123, 181);
+}
+
+ul.social-buttons .github:hover, ul.social-buttons .github:focus, ul.social-buttons .github:active {
+    background-color: black;
+}
+
+ul.social-buttons .instagram:hover, ul.social-buttons .instagram:focus, ul.social-buttons .instagram:active {
+    background-color: rgb(155, 105, 84);
+}
+
+ul.social-buttons .mail:hover, ul.social-buttons .mail:focus, ul.social-buttons .mail:active {
+    background-color: rgb(221, 221, 221);
 }
 
 .portfolio-modal .modal-content {

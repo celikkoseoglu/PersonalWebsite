@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c28b678-f8a6-4221-bb62-ae8a4e86b40e" name="Default" comment="Change Log:&#10;-Fixed the Resume button displaying wrong colours and underline on mouse hover&#10;-Social media icons are not wrapping to the next line when width &lt; 960&#10;-Changed projects section's background colour">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Website/files/celikresume.pdf" />
+    <list default="true" id="5c28b678-f8a6-4221-bb62-ae8a4e86b40e" name="Default" comment="Change Log:&#10;-Rocky journey app icon has been added. Will fix the layout soon&#10;-Resume link now works">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/images/rockyJourney.png" afterPath="$PROJECT_DIR$/Website/images/rockyJourney.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/css/agency.css" afterPath="$PROJECT_DIR$/Website/css/agency.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/css/font-awesome.css" afterPath="$PROJECT_DIR$/Website/css/font-awesome.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Website/index.html" afterPath="$PROJECT_DIR$/Website/index.html" />
     </list>
     <ignored path="PersonalWebsite.iws" />
@@ -24,104 +27,122 @@
     <favorites_list name="PersonalWebsite" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Website/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2204">
-              <caret line="94" column="46" selection-start-line="94" selection-start-column="46" selection-end-line="94" selection-end-column="46" />
-              <folding>
-                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="font-awesome.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/css/font-awesome.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="agency.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/css/agency.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="855" column="23" selection-start-line="855" selection-start-column="22" selection-end-line="855" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scrolling-nav.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/js/scrolling-nav.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="websiteCodesIMac.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/images/websiteCodesIMac.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shore.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/images/shore.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.easing.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/js/jquery.easing.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scrolling-nav.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/css/scrolling-nav.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Website.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Website/Website.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Website/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+                  <folding>
+                    <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="font-awesome.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Website/css/font-awesome.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="agency.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Website/css/agency.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="163">
+                  <caret line="824" column="4" selection-start-line="824" selection-start-column="4" selection-end-line="824" selection-end-column="4" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="scrolling-nav.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Website/js/scrolling-nav.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="websiteCodesIMac.png" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Website/images/websiteCodesIMac.png">
+              <provider selected="true" editor-type-id="images">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="shore.jpg" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Website/images/shore.jpg">
+              <provider selected="true" editor-type-id="images">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="jquery.easing.min.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Website/js/jquery.easing.min.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="scrolling-nav.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Website/css/scrolling-nav.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Website.iml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Website/Website.iml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="agency.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Website/css/agency.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="13170">
+                  <caret line="878" column="6" selection-start-line="878" selection-start-column="4" selection-end-line="878" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -152,8 +173,9 @@
         <option value="$PROJECT_DIR$/Website/js/maps.js" />
         <option value="$PROJECT_DIR$/Website/css/maps.css" />
         <option value="$PROJECT_DIR$/Website/css/scrolling-nav.css" />
-        <option value="$PROJECT_DIR$/Website/css/agency.css" />
         <option value="$PROJECT_DIR$/Website/index.html" />
+        <option value="$PROJECT_DIR$/Website/css/font-awesome.css" />
+        <option value="$PROJECT_DIR$/Website/css/agency.css" />
       </list>
     </option>
   </component>
@@ -199,7 +221,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -228,14 +251,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="files" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -488,7 +510,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17095852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17310444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -523,7 +546,8 @@
     <MESSAGE value="Change Log:&#10;&#10;-changed header background image to the &quot;wall of self-motivated creativity&quot;&#10;-changed navbar colour to something nicer&#10;-added github logo and fixed the social media links except facebook&#10;-adjusted the resume button colour and size&#10;" />
     <MESSAGE value="Change Log:&#10;&#10;-changed header background image to the &quot;wall of self-motivated creativity&quot;&#10;-changed navbar colour to something nicer&#10;-added github logo and fixed the social media links except facebook&#10;-adjusted the resume button colour and size" />
     <MESSAGE value="Change Log:&#10;-Fixed the Resume button displaying wrong colours and underline on mouse hover&#10;-Social media icons are not wrapping to the next line when width &lt; 960&#10;-Changed projects section's background colour" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change Log:&#10;-Fixed the Resume button displaying wrong colours and underline on mouse hover&#10;-Social media icons are not wrapping to the next line when width &lt; 960&#10;-Changed projects section's background colour" />
+    <MESSAGE value="Change Log:&#10;-Rocky journey app icon has been added. Will fix the layout soon&#10;-Resume link now works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Log:&#10;-Rocky journey app icon has been added. Will fix the layout soon&#10;-Resume link now works" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -862,14 +886,6 @@
     <entry file="file://$PROJECT_DIR$/Website/css/maps.css" />
     <entry file="file://$PROJECT_DIR$/Website/css/main.less" />
     <entry file="file://$PROJECT_DIR$/Website/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/Website/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website/js/scrolling-nav.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -896,14 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/Website.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Website/css/scrolling-nav.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -912,18 +920,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Website/css/agency.css">
+    <entry file="file://$PROJECT_DIR$/Website/Website.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="855" column="23" selection-start-line="855" selection-start-column="22" selection-end-line="855" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2204">
-          <caret line="94" column="46" selection-start-line="94" selection-start-column="46" selection-end-line="94" selection-end-column="46" />
+        <state relative-caret-position="285">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -937,6 +945,22 @@
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/css/agency.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="824" column="4" selection-start-line="824" selection-start-column="4" selection-end-line="824" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
