@@ -709,6 +709,17 @@ section h3.section-subheading {
     margin-bottom: 75px
 }
 
+#contact {
+    background-image: url("../images/maps.jpeg");
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+
 @media (min-width: 768px) {
     section {
         padding: 50px 0
