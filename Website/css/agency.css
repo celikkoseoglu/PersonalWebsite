@@ -689,6 +689,12 @@ section h3.section-subheading {
     margin-bottom: 75px
 }
 
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
 #contact {
     background: url("../images/maps.jpeg") scroll center center;
     -webkit-background-size: cover;
