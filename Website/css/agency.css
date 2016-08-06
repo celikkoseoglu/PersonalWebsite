@@ -8,6 +8,11 @@
     src: url(../fonts/zhcz-_WihjSQC0oHJ9TCYL3hpw3pgy2gAi-Ip7WPMi0.woff);
 }
 
+@font-face {
+    font-family: kaushan;
+    src: url(../fonts/KaushanScript-Regular.otf);
+}
+
 body {
     overflow-x: hidden;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
@@ -35,7 +40,6 @@ img .col-md-4, .col-md-8 {
     float:none;
     display:inline-block;
     vertical-align:middle;
-    margin-right:-4px;
 }
 
 .text-muted {
@@ -100,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-default .navbar-brand {
     color: #fed136;
-    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive
+    font-family: kaushan
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
@@ -518,13 +522,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default {
-    background-color: #222;
+    background-color: rgba(63, 79, 109, 0.9);
     border-color: transparent
 }
 
 .navbar-default .navbar-brand {
     color: #fed136;
-    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive
+    font-family: kaushan
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
