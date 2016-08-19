@@ -231,7 +231,6 @@ header .intro-text .intro-heading {
         text-transform: uppercase;
         font-weight: 700;
         font-size: 75px;
-        line-height: 75px;
         margin-bottom: 50px
     }
 }
@@ -657,8 +656,8 @@ header .intro-text .intro-heading {
 
 @media (min-width: 768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px
+        padding-top: 250px;
+        padding-bottom: 230px
     }
 
     header .intro-text .intro-lead-in {
@@ -673,8 +672,7 @@ header .intro-text .intro-heading {
         text-transform: uppercase;
         font-weight: 700;
         font-size: 75px;
-        line-height: 75px;
-        margin-bottom: 50px
+        margin-bottom: 70px
     }
 }
 
