@@ -1,0 +1,212 @@
+[
+  {
+    "modalId": "qNoteModal",
+    "title": "QNote",
+    "category": "My Projects",
+    "slogan": "BLAZING FAST NOTE TAKING.",
+    "description": "Makes note taking fast, simple and easy on Windows Phone devices. Unlike other note taking apps, QNote does not require the user to wait for a few seconds to get ready for note taking. It starts up in milliseconds, the user takes some notes and just locks the phone to close the application. Perfect for taking quick notes on the go!",
+    "logoLocation": "../images/QNote.png",
+    "screenshots": [
+      "https://store-images.s-microsoft.com/image/apps.33276.13510798883027555.c7c88434-62d2-4a0d-96bc-8df0c3cce760.30addeb0-5df9-4d6c-bc54-aa89bb3283d2?w=580&h=326&q=60&mode=letterbox&background=black",
+      "https://store-images.s-microsoft.com/image/apps.51470.13510798883027555.a9832685-2e0b-4c53-bc5e-6d37871fd3d2.0db025c6-d0d2-4dd7-8b62-2301bc4b4719?w=580&h=326&q=60&mode=letterbox&background=black",
+      "https://store-images.s-microsoft.com/image/apps.30907.13510798883027555.06c1a6aa-6927-460a-a35f-a226d4a8e379.27fcefcc-9e6d-46d5-a16c-61c62ab110e0?w=580&h=326&q=60&mode=letterbox&background=black"
+    ],
+    "technologies_used": [
+      [
+        "Microsoft Visual Studio",
+        "warning"
+      ],
+      [
+        "C# .NET",
+        "info"
+      ],
+      [
+        "WPF",
+        "info"
+      ]
+    ],
+    "download_for": [
+      [
+        "Windows",
+        "warning"
+      ],
+      [
+        "Windows Phone",
+        "info"
+      ]
+    ]
+  },
+  {
+    "modalId": "photoSecModal",
+    "title": "PhotoSec",
+    "category": "My Projects",
+    "slogan": "SECURE YOUR PHOTOS!",
+    "description": "Select some photos from the phone’s gallery and password protect them. PhotoSec uses multi-threading to display and render photos much faster when compared to other similar applications in the store. Also, it was the 36th most downloaded application from the Windows Phone Store after the addition of the fake password feature!",
+    "logoLocation": "../images/PhotoSec.png",
+    "screenshots": [
+      "https://store-images.s-microsoft.com/image/apps.33276.13510798883027555.c7c88434-62d2-4a0d-96bc-8df0c3cce760.30addeb0-5df9-4d6c-bc54-aa89bb3283d2?w=580&h=326&q=60&mode=letterbox&background=black",
+      "https://store-images.s-microsoft.com/image/apps.51470.13510798883027555.a9832685-2e0b-4c53-bc5e-6d37871fd3d2.0db025c6-d0d2-4dd7-8b62-2301bc4b4719?w=580&h=326&q=60&mode=letterbox&background=black",
+      "https://store-images.s-microsoft.com/image/apps.30907.13510798883027555.06c1a6aa-6927-460a-a35f-a226d4a8e379.27fcefcc-9e6d-46d5-a16c-61c62ab110e0?w=580&h=326&q=60&mode=letterbox&background=black"
+    ],
+    "technologies_used": [
+      [
+        "Microsoft Visual Studio",
+        "warning"
+      ],
+      [
+        "C# .NET",
+        "info"
+      ],
+      [
+        "WPF",
+        "info"
+      ]
+    ],
+    "download_for": [
+      [
+        "Windows Phone",
+        "info"
+      ]
+    ]
+  },
+  {
+    "modalId": "ipManagerModal",
+    "title": "IPManager",
+    "category": "My Projects",
+    "slogan": "DHCP MADE EASY",
+    "description": "If a workplace uses static IP and the employees carry their computers between their homes and offices everyday, IPManager changes DHCP settings automatically, which saves everyone approximately one minute per day.",
+    "logoLocation": "../images/IPManager.png",
+    "screenshots": [
+      "https://store-images.s-microsoft.com/image/apps.33276.13510798883027555.c7c88434-62d2-4a0d-96bc-8df0c3cce760.30addeb0-5df9-4d6c-bc54-aa89bb3283d2?w=580&h=326&q=60&mode=letterbox&background=black",
+      "https://store-images.s-microsoft.com/image/apps.51470.13510798883027555.a9832685-2e0b-4c53-bc5e-6d37871fd3d2.0db025c6-d0d2-4dd7-8b62-2301bc4b4719?w=580&h=326&q=60&mode=letterbox&background=black",
+      "https://store-images.s-microsoft.com/image/apps.30907.13510798883027555.06c1a6aa-6927-460a-a35f-a226d4a8e379.27fcefcc-9e6d-46d5-a16c-61c62ab110e0?w=580&h=326&q=60&mode=letterbox&background=black"
+    ],
+    "technologies_used": [
+      [
+        "Microsoft Visual Studio",
+        "warning"
+      ],
+      [
+        "C# .NET",
+        "info"
+      ],
+      [
+        "WPF",
+        "info"
+      ]
+    ],
+    "download_for": [
+      [
+        "Windows",
+        "warning"
+      ]
+    ]
+  },
+  {
+    "modalId": "marmaraModal",
+    "title": "TODAY'S MEAL IN MARMARA",
+    "category": "My Projects",
+    "slogan": "LUNCH AS A DIFFERENT FORM",
+    "description": "Most students wonder what is today's food in the cafeteria. Everyone goes to the school's website to learn about today's menu. What if we could send the menu to people's phones at 11:30 every day? Also people could vote for the food. Therefore this application could also benefit the cafeteria management. Or not?",
+    "logoLocation": "../images/notReady.png",
+    "screenshots": [
+      "https://store-images.s-microsoft.com/image/apps.33276.13510798883027555.c7c88434-62d2-4a0d-96bc-8df0c3cce760.30addeb0-5df9-4d6c-bc54-aa89bb3283d2?w=580&h=326&q=60&mode=letterbox&background=black",
+      "https://store-images.s-microsoft.com/image/apps.51470.13510798883027555.a9832685-2e0b-4c53-bc5e-6d37871fd3d2.0db025c6-d0d2-4dd7-8b62-2301bc4b4719?w=580&h=326&q=60&mode=letterbox&background=black",
+      "https://store-images.s-microsoft.com/image/apps.30907.13510798883027555.06c1a6aa-6927-460a-a35f-a226d4a8e379.27fcefcc-9e6d-46d5-a16c-61c62ab110e0?w=580&h=326&q=60&mode=letterbox&background=black"
+    ],
+    "technologies_used": [
+      [
+        "Xcode",
+        "warning"
+      ],
+      [
+        "Android Studio",
+        "warning"
+      ],
+      [
+        "And some other stuff that I don't know yet",
+        "info"
+      ]
+    ],
+    "download_for": [
+      [
+        "Windows Phone?",
+        "warning"
+      ],
+      [
+        "iOS",
+        "info"
+      ],
+      [
+        "Android",
+        "info"
+      ]
+    ]
+  },
+  {
+    "modalId": "rockyJourneyModal",
+    "title": "ROCKY JOURNEY",
+    "category": "My Projects",
+    "slogan": "LUNCH AS A DIFFERENT FORM",
+    "description": "This might be one of the coolest projects I've done at school. The game is played on an 8x8 LED Matrix and 2 buttons. Obstacles are generated randomly and you have your 2 buttons on the Spartan 3E card to avoid them by going up and down. You have 3 lives. Give it a try!",
+    "logoLocation": "../images/rockyJourney.png",
+    "screenshots": [
+      "https://store-images.s-microsoft.com/image/apps.33276.13510798883027555.c7c88434-62d2-4a0d-96bc-8df0c3cce760.30addeb0-5df9-4d6c-bc54-aa89bb3283d2?w=580&h=326&q=60&mode=letterbox&background=black",
+      "https://store-images.s-microsoft.com/image/apps.51470.13510798883027555.a9832685-2e0b-4c53-bc5e-6d37871fd3d2.0db025c6-d0d2-4dd7-8b62-2301bc4b4719?w=580&h=326&q=60&mode=letterbox&background=black",
+      "https://store-images.s-microsoft.com/image/apps.30907.13510798883027555.06c1a6aa-6927-460a-a35f-a226d4a8e379.27fcefcc-9e6d-46d5-a16c-61c62ab110e0?w=580&h=326&q=60&mode=letterbox&background=black"
+    ],
+    "technologies_used": [
+      [
+        "XILinx ISE Design Suite",
+        "warning"
+      ],
+      [
+        "Verilog",
+        "info"
+      ],
+      [
+        "Spantan 3E FPGA Board",
+        "info"
+      ]
+    ],
+    "download_for": [
+      [
+        "XILinx Project",
+        "info"
+      ]
+    ]
+  },
+  {
+    "modalId": "websiteModal",
+    "title": "PERSONAL WEBSITE",
+    "category": "My Projects",
+    "slogan": "EVERY DEVELOPER NEEDS ONE",
+    "description": "Every wizard developer requires a personal website to tell about their skills. I've started to work on this in September 2015 and it is still occupying my time for development. I've learnt a lot of HTML, CSS & JavaScript during the development of this website.",
+    "logoLocation": "../images/personalWebsite.png",
+    "screenshots": [
+      "https://store-images.s-microsoft.com/image/apps.33276.13510798883027555.c7c88434-62d2-4a0d-96bc-8df0c3cce760.30addeb0-5df9-4d6c-bc54-aa89bb3283d2?w=580&h=326&q=60&mode=letterbox&background=black",
+      "https://store-images.s-microsoft.com/image/apps.51470.13510798883027555.a9832685-2e0b-4c53-bc5e-6d37871fd3d2.0db025c6-d0d2-4dd7-8b62-2301bc4b4719?w=580&h=326&q=60&mode=letterbox&background=black",
+      "https://store-images.s-microsoft.com/image/apps.30907.13510798883027555.06c1a6aa-6927-460a-a35f-a226d4a8e379.27fcefcc-9e6d-46d5-a16c-61c62ab110e0?w=580&h=326&q=60&mode=letterbox&background=black"
+    ],
+    "technologies_used": [
+      [
+        "Bootstrap",
+        "warning"
+      ],
+      [
+        "HTML, CSS & JavaScript",
+        "info"
+      ],
+      [
+        "IntelliJ IDEA Live Edit Plugin",
+        "info"
+      ]
+    ],
+    "download_for": [
+      [
+        "All internet enabled devices",
+        "info"
+      ]
+    ]
+  }
+]

@@ -6,39 +6,83 @@ var appName = '#app-name';
 var header = '#header';
 var imageLinks = '#image-links';
 var link = '#link';
+var type = '#type';
+var innerText = '#inner-text';
+var technologiesUsed = "#technologies-used";
 
-var modalTemplate = '<div class="modal fade" id="#modal-id" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> <div class="modal-dialog"> <div class="modal-content"> <div class="modal-header"> <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button> <h4 class="modal-title">#modal-title</h4> </div> <div class="modal-body row"> <img style="margin-top: 70px;" src="images/#image-filename" name="aboutme"class="img-responsive col-md-4"/> <h3 class="media-heading">#app-name</h3> <h4 class="text-muted">#header</h4> <p>#description</p><hr><span><strong>Technologies Used: </strong></span><span class="label label-warning">Microsoft Visual Studio</span><span class="label label-info">C# .NET</span><span class="label label-info">WPF</span><br><span><strong>Download for: </strong></span><span class="label label-warning">Windows Phone</span><span class="label label-info">Windows</span><hr><span><strong>Screenshots: </strong></span><br>#image-links</div><div class="modal-footer"><center><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></center></div></div></div></div>';
-var imageTemplate = '<img src="#link"height="120"/>';
+var modalTemplate = '<div class=\"modal fade\" id=\"#modal-id\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\" aria-hidden=\"true\"><div class=\"modal-dialog\"><div class=\"modal-content\"><div class=\"modal-header\"><button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-hidden=\"true\"></button> <h4 class=\"modal-title\">#modal-title</h4></div><div class=\"modal-body row\"><img style=\"margin-top: 70px;\" src=\"images/#image-filename\" name=\"aboutme\" class=\"img-responsive col-md-4\"/><h3 class=\"media-heading\">#app-name</h3><h4 class=\"text-muted\">#header</h4><p>#description</p><hr><span><strong>Technologies Used: </strong></span>#technologies-used<br><span><strong>Download for: </strong></span>#download-for<hr><span><strong>Screenshots: </strong></span><br>#image-links</div><div class=\"modal-footer\"><center><button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button></center></div></div></div></div>';
 
-console.log("Injection Started");
+var imageTemplate = '<img src=\"#link\"height=\"120\"/>';
+var labelTemplate = '<span class=\"label label-#type\">#inner-text</span>';
 
-createModal('qNoteModal', 'QNote', 'My Projects',
-    'Makes note taking fast, simple and easy on Windows Phone devices. Unlike other note taking apps, QNote does not require the user to wait for a few seconds to get ready for note taking. It starts up in milliseconds, the user takes some notes and just locks the phone to close the application. Perfect for taking quick notes on the go!',
-    '../images/QNote.png', 'BLAZING FAST NOTE TAKING.', ['https://store-images.s-microsoft.com/image/apps.33276.13510798883027555.c7c88434-62d2-4a0d-96bc-8df0c3cce760.30addeb0-5df9-4d6c-bc54-aa89bb3283d2?w=580&h=326&q=60&mode=letterbox&background=black', 'https://store-images.s-microsoft.com/image/apps.51470.13510798883027555.a9832685-2e0b-4c53-bc5e-6d37871fd3d2.0db025c6-d0d2-4dd7-8b62-2301bc4b4719?w=580&h=326&q=60&mode=letterbox&background=black', 'https://store-images.s-microsoft.com/image/apps.30907.13510798883027555.06c1a6aa-6927-460a-a35f-a226d4a8e379.27fcefcc-9e6d-46d5-a16c-61c62ab110e0?w=580&h=326&q=60&mode=letterbox&background=black']);
+console.log('Injection Started');
 
+init();
 
 function injectModal(newModal) {
-    var e = document.createElement('div');
-    e.innerHTML = newModal;
-    document.body.appendChild(e);
+    document.body.innerHTML += newModal;
 }
 
-function createModal(modalId, appName, modalTitle, description, imageFilename, header, links) {
+function createModal(modalId, appName, category, description, logoLocation, slogan, screenshots, technoUsed, downloadFor) {
     var newModal = modalTemplate;
     newModal = newModal.replace(this.modalId, modalId);
-    newModal = newModal.replace(this.modalTitle, modalTitle);
-    newModal = newModal.replace(this.imageFilename, imageFilename);
+    newModal = newModal.replace(this.modalTitle, category);
+    newModal = newModal.replace(this.imageFilename, logoLocation);
     newModal = newModal.replace(this.description, description);
     newModal = newModal.replace(this.appName, appName);
-    newModal = newModal.replace(this.header, header);
+    newModal = newModal.replace(this.header, slogan);
 
     var imageLinks = '';
 
-    for (var i in links) {
-        imageLinks += (imageLinks, this.imageTemplate.replace(this.link, links[i]));
+    for (var i in screenshots) {
+        imageLinks += (imageLinks, this.imageTemplate.replace(this.link, screenshots[i]));
     }
 
     newModal = newModal.replace(this.imageLinks, imageLinks);
 
+    var techUsed = '';
+    var downFor = '';
+
+    console.log(technoUsed.length);
+
+    for (var i = 0; i < technoUsed.length; i++) {
+        techUsed += (techUsed, this.labelTemplate.replace(this.innerText, technoUsed[i][0]).replace(this.type, technoUsed[i][1]))
+    }
+
+    for (var i = 0; i < downloadFor.length; i++) {
+        downFor += (downFor, this.labelTemplate.replace(this.innerText, downloadFor[i][0]).replace(this.type, downloadFor[i][1]))
+    }
+
+
+    newModal = newModal.replace(this.technologiesUsed, techUsed);
+    newModal = newModal.replace("#download-for", downFor);
+
     injectModal(newModal);
+}
+
+//requests the .json object from the server
+function loadJSON(callback) {
+
+    var xobj = new XMLHttpRequest();
+    xobj.overrideMimeType('application/json');
+    xobj.open('GET', 'js/lunch.json', true); // Replace 'my_data' with the path to your file
+    xobj.onreadystatechange = function () {
+        if (xobj.readyState == 4 && xobj.status == '200') {
+            // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+            callback(xobj.responseText);
+        }
+    };
+    xobj.send(null);
+}
+
+function init() {
+    loadJSON(function (response) {
+        // Parse JSON string into object
+        var actual_JSON = JSON.parse(response);
+
+        for (var i = 0; i < actual_JSON.length; i++) {
+            var current = actual_JSON[i];
+            createModal(current.modalId, current.title, current.category, current.description, current.logoLocation, current.slogan, current.screenshots, current.technologies_used, current.download_for);
+        }
+    });
 }
