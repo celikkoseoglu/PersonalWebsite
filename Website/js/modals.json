@@ -11,7 +11,10 @@
       "https://store-images.s-microsoft.com/image/apps.51470.13510798883027555.a9832685-2e0b-4c53-bc5e-6d37871fd3d2.0db025c6-d0d2-4dd7-8b62-2301bc4b4719?w=580&h=326&q=60&mode=letterbox&background=black",
       "https://store-images.s-microsoft.com/image/apps.30907.13510798883027555.06c1a6aa-6927-460a-a35f-a226d4a8e379.27fcefcc-9e6d-46d5-a16c-61c62ab110e0?w=580&h=326&q=60&mode=letterbox&background=black"
     ],
-    "technologies_used": [
+    "list_1_text": "Technologies Used: ",
+    "list_2_text": "Download For: ",
+    "list_3_text": "Screenshots: ",
+    "list_1_content": [
       [
         "Microsoft Visual Studio",
         "warning"
@@ -25,7 +28,7 @@
         "info"
       ]
     ],
-    "download_for": [
+    "list_2_content": [
       [
         "Windows",
         "warning"
@@ -48,7 +51,10 @@
       "https://store-images.s-microsoft.com/image/apps.51470.13510798883027555.a9832685-2e0b-4c53-bc5e-6d37871fd3d2.0db025c6-d0d2-4dd7-8b62-2301bc4b4719?w=580&h=326&q=60&mode=letterbox&background=black",
       "https://store-images.s-microsoft.com/image/apps.30907.13510798883027555.06c1a6aa-6927-460a-a35f-a226d4a8e379.27fcefcc-9e6d-46d5-a16c-61c62ab110e0?w=580&h=326&q=60&mode=letterbox&background=black"
     ],
-    "technologies_used": [
+    "list_1_text": "Technologies Used: ",
+    "list_2_text": "Download For: ",
+    "list_3_text": "Screenshots: ",
+    "list_1_content": [
       [
         "Microsoft Visual Studio",
         "warning"
@@ -62,7 +68,7 @@
         "info"
       ]
     ],
-    "download_for": [
+    "list_2_content": [
       [
         "Windows Phone",
         "info"
@@ -81,7 +87,10 @@
       "https://store-images.s-microsoft.com/image/apps.51470.13510798883027555.a9832685-2e0b-4c53-bc5e-6d37871fd3d2.0db025c6-d0d2-4dd7-8b62-2301bc4b4719?w=580&h=326&q=60&mode=letterbox&background=black",
       "https://store-images.s-microsoft.com/image/apps.30907.13510798883027555.06c1a6aa-6927-460a-a35f-a226d4a8e379.27fcefcc-9e6d-46d5-a16c-61c62ab110e0?w=580&h=326&q=60&mode=letterbox&background=black"
     ],
-    "technologies_used": [
+    "list_1_text": "Technologies Used: ",
+    "list_2_text": "Download For: ",
+    "list_3_text": "Screenshots: ",
+    "list_1_content": [
       [
         "Microsoft Visual Studio",
         "warning"
@@ -95,7 +104,7 @@
         "info"
       ]
     ],
-    "download_for": [
+    "list_2_content": [
       [
         "Windows",
         "warning"
@@ -109,12 +118,11 @@
     "slogan": "LUNCH AS A DIFFERENT FORM",
     "description": "Most students wonder what is today's food in the cafeteria. Everyone goes to the school's website to learn about today's menu. What if we could send the menu to people's phones at 11:30 every day? Also people could vote for the food. Therefore this application could also benefit the cafeteria management. Or not?",
     "logoLocation": "../images/notReady.png",
-    "screenshots": [
-      "https://store-images.s-microsoft.com/image/apps.33276.13510798883027555.c7c88434-62d2-4a0d-96bc-8df0c3cce760.30addeb0-5df9-4d6c-bc54-aa89bb3283d2?w=580&h=326&q=60&mode=letterbox&background=black",
-      "https://store-images.s-microsoft.com/image/apps.51470.13510798883027555.a9832685-2e0b-4c53-bc5e-6d37871fd3d2.0db025c6-d0d2-4dd7-8b62-2301bc4b4719?w=580&h=326&q=60&mode=letterbox&background=black",
-      "https://store-images.s-microsoft.com/image/apps.30907.13510798883027555.06c1a6aa-6927-460a-a35f-a226d4a8e379.27fcefcc-9e6d-46d5-a16c-61c62ab110e0?w=580&h=326&q=60&mode=letterbox&background=black"
-    ],
-    "technologies_used": [
+    "screenshots": [],
+    "list_1_text": "Technologies to Use: ",
+    "list_2_text": "Will Be Available For: ",
+    "list_3_text": "Working on the UI Designs...",
+    "list_1_content": [
       [
         "Xcode",
         "warning"
@@ -128,7 +136,7 @@
         "info"
       ]
     ],
-    "download_for": [
+    "list_2_content": [
       [
         "Windows Phone?",
         "warning"
@@ -150,12 +158,11 @@
     "slogan": "LUNCH AS A DIFFERENT FORM",
     "description": "This might be one of the coolest projects I've done at school. The game is played on an 8x8 LED Matrix and 2 buttons. Obstacles are generated randomly and you have your 2 buttons on the Spartan 3E card to avoid them by going up and down. You have 3 lives. Give it a try!",
     "logoLocation": "../images/rockyJourney.png",
-    "screenshots": [
-      "https://store-images.s-microsoft.com/image/apps.33276.13510798883027555.c7c88434-62d2-4a0d-96bc-8df0c3cce760.30addeb0-5df9-4d6c-bc54-aa89bb3283d2?w=580&h=326&q=60&mode=letterbox&background=black",
-      "https://store-images.s-microsoft.com/image/apps.51470.13510798883027555.a9832685-2e0b-4c53-bc5e-6d37871fd3d2.0db025c6-d0d2-4dd7-8b62-2301bc4b4719?w=580&h=326&q=60&mode=letterbox&background=black",
-      "https://store-images.s-microsoft.com/image/apps.30907.13510798883027555.06c1a6aa-6927-460a-a35f-a226d4a8e379.27fcefcc-9e6d-46d5-a16c-61c62ab110e0?w=580&h=326&q=60&mode=letterbox&background=black"
-    ],
-    "technologies_used": [
+    "screenshots": [],
+    "list_1_text": "Technologies Used: ",
+    "list_2_text": "Download: ",
+    "list_3_text": "Screenshots are going to be provided soon? Oh and the downlaod link",
+    "list_1_content": [
       [
         "XILinx ISE Design Suite",
         "warning"
@@ -169,7 +176,7 @@
         "info"
       ]
     ],
-    "download_for": [
+    "list_2_content": [
       [
         "XILinx Project",
         "info"
@@ -183,12 +190,11 @@
     "slogan": "EVERY DEVELOPER NEEDS ONE",
     "description": "Every wizard developer requires a personal website to tell about their skills. I've started to work on this in September 2015 and it is still occupying my time for development. I've learnt a lot of HTML, CSS & JavaScript during the development of this website.",
     "logoLocation": "../images/personalWebsite.png",
-    "screenshots": [
-      "https://store-images.s-microsoft.com/image/apps.33276.13510798883027555.c7c88434-62d2-4a0d-96bc-8df0c3cce760.30addeb0-5df9-4d6c-bc54-aa89bb3283d2?w=580&h=326&q=60&mode=letterbox&background=black",
-      "https://store-images.s-microsoft.com/image/apps.51470.13510798883027555.a9832685-2e0b-4c53-bc5e-6d37871fd3d2.0db025c6-d0d2-4dd7-8b62-2301bc4b4719?w=580&h=326&q=60&mode=letterbox&background=black",
-      "https://store-images.s-microsoft.com/image/apps.30907.13510798883027555.06c1a6aa-6927-460a-a35f-a226d4a8e379.27fcefcc-9e6d-46d5-a16c-61c62ab110e0?w=580&h=326&q=60&mode=letterbox&background=black"
-    ],
-    "technologies_used": [
+    "screenshots": [],
+    "list_1_text": "Technologies Used: ",
+    "list_2_text": "Available For: ",
+    "list_3_text": "Check out my GitHub page for this website's history: ",
+    "list_1_content": [
       [
         "Bootstrap",
         "warning"
@@ -202,7 +208,7 @@
         "info"
       ]
     ],
-    "download_for": [
+    "list_2_content": [
       [
         "All internet enabled devices",
         "info"
