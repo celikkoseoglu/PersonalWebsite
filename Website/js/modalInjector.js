@@ -5,10 +5,10 @@ var labelTemplate = '<span class=\"label label-#type\">#inner-text</span>';
 
 console.log('Injection Started');
 
-init();
+document.onload = init();
 
 function injectModal(newModal) {
-    document.body.innerHTML += newModal;
+    $(newModal).appendTo('body');
 }
 
 function createModal(modalId, appName, category, description, logoLocation, slogan, screenshots, list1Content, list2Content, list1Text, list2Text, list3Text) {
