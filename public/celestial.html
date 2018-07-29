@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Çelik Köseoğlu - Home</title>
+    <meta charset="UTF-8">
+    <meta name="theStory" content="Celestial">
+  </head>
+  <body>
+    Here is a short part from the book I'm reading. This will stay here until I make an About page:<br>
+	<br>
+	They were looking out through the window:<br>
+	+But you know, I always wanted to ask about it however I was afraid of the possible consequences.<br>
+	-Alright, how are you going to find out the answer? Without asking I mean?<br>
+	+All I need is a signal from the cowboy. You'll see.<br>
+	-<span id="time"></span> days remain.
+  </body>
+  <script type="text/javascript">
+  	var d = new Date();
+  	var remainingTime = 17 - d.getDate();
+  	document.getElementById("time").innerHTML = remainingTime;
+  </script>
+</html>

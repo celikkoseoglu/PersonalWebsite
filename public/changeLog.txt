@@ -1,0 +1,43 @@
+Change Log:
+-changed May 2016 on top of the signature to be June 2016
+-changed text content a little bit
+-added Facebook link to the social media links
+
+Change Log:
+-fixed the google maps tint showing non-tinted spaces at the top and the bottom on a mobile device
+-modal images now show the correct image instead of the QNote logo
+
+Change Log:
+-clicking the social media links now open them in a new tab
+-modalInjector now injects correct values for QNote
+-added padding between Skills divs
+-changed website text content. getting ready for deployment
+
+Change Log:
+-added tint to contact background div
+-added signature to the footer of the page
+-initial steps on modalInjector.js. I did not want duplicate HTML code for all the modals for the projects so this should be a better solution
+
+Change Log:
+-Contact area now has a static Google Maps background
+-Fixed IP Manager's modal, added modals for all ongoing projects. However, decided this is not a good approach. Started writing modalInjector.js
+
+Change Log:
+-removed social media buttons under Google Maps profile picture
+-each social shows its own logo colour on mouse hover
+-rocky journey logo layout has been fixed
+
+Change Log:
+-Rocky journey app icon has been added. Will fix the layout soon
+-Resume link now works
+
+Change Log:
+-Fixed the Resume button displaying wrong colours and underline on mouse hover
+-Social media icons are not wrapping to the next line when width < 960
+-Changed projects section's background colour
+
+Change Log:
+-changed header background image to the "wall of self-motivated creativity"
+-changed navbar colour to something nicer
+-added github logo and fixed the social media links except facebook
+-adjusted the resume button colour and size

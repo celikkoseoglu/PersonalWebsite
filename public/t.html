@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Çelik Köseoğlu - Home</title>
+    <meta charset="UTF-8">
+    <meta name="theStory" content="Celestial">
+  </head>
+  <body>
+    Hack your way through music.<br>
+    <a href="http://149.210.142.110:8006/listen.pls">Canlı Yayın</a><br>
+    <a href="http://149.210.142.110:8010/listen.pls">Easy</a><br>
+    <a href="http://149.210.142.110:8014/listen.pls">Rock</a><br>
+    <a href="http://149.210.142.110:8030/listen.pls">Karışık Kaset</a><br>
+    <a href="http://149.210.142.110:8040/listen.pls">Indie</a><br>
+	-<span id="time"></span> days remain.
+  </body>
+  <script type="text/javascript">
+  	var d = new Date();
+  	var remainingTime = 17 - d.getDate();
+  	document.getElementById("time").innerHTML = remainingTime;
+  </script>
+</html>

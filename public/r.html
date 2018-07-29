@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Çelik Köseoğlu - Home</title>
+    <meta charset="UTF-8">
+    <meta name="theStory" content="Celestial">
+</head>
+
+<body>
+    Hack your way through music.<br>
+    <audio controls="controls" src="http://149.210.142.110:8006/listen.pls"></audio>
+    <p id="songTitle"></p>
+    <p id="artist"></p>
+    <p id="lyrics">I can't be me when I'm in front of you
+        I just can't be myself when I see you
+        because you're very cute tonight
+        and I feel shy and sad and I
+        look at you
+        and I think I love you
+        but you don't want me
+        and that is very clear
+        I should have noticed it for years
+        but I still want you but not as a friend
+        because...
+
+        you're the man, I'm the girl,
+        we look good together
+        you with your hat, me with my boots
+        we are, we are, the dandy cowboys
+
+        I read today in a magazine
+        that men don't like girls who are
+        shy and sad so now
+        I wear my magic smile, just for you
+        I put my magic boots, I ride my magic horse
+        I am so brave, I don't fear anything
+        I don't even fear /.../ ?
+        under my skirt , /I wrote all amends/?
+        and give the money, to dady
+        because...
+
+        you're the man, I'm the girl,
+        we look good together
+        you with your hat, me with my boots
+        we are, we are, the dandy cowboys
+
+        and now I'm the richest girl in all the country
+        you call me 'baby' you say you want me
+        but honey, it's too late
+        now I'm the queen of rodeo
+        you missed your chance
+        you're no longer my heroe
+
+        you're bitching dady
+        you don't respect the rules
+        you stole my money
+        and ran away with your poney
+        and now I'm gonna kill you
+        I'll shoot you in the head
+        now I'm gonna kill you
+        I'm gonna shoot you in the head
+        because...
+
+        you're the man, I'm the girl,
+        we look good together
+        you with your hat, me with my boots
+        we are, we are, the dandy cowboys
+
+        you didn't want me and that was very clear
+        I will never never forget it
+        but there's still a hope that hats and boots can get along together
+        I still hope that hats and boots can get along together
+        I still hope that hats and boots can get along together
+        I hope that we get along</p>
+
+    <script>
+        var xmlhttp = new XMLHttpRequest();
+        var url = 'http://celikk.me/rODTU/r.txt';
+
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                console.log(xmlhttp.responseText);
+            }
+        };
+        xmlhttp.open("GET", url, true);
+        xmlhttp.send();
+
+        document.getElementById("songTitle").innerHTML = "The Dandy Cowboys";
+        document.getElementById("artist").innerHTML = "SoKo";
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title>Çelik Köseoglu - Home</title>
+    	<meta charset="UTF-8">
+    	<meta name="description" content="Celik Koseoglu">
+    	<link rel="stylesheet" type="text/css" href="requiredFiles/primeLetter.css" />
+  </head>
+  <body>
+    <div id="header">
+        <div class="siteCategories">
+          <ul class="centerWrapper">
+            <p style="font-size: 18px">Çelik Köseoglu</p>
+          </ul>
+        </div>
+        <p id="welcomeHeader" class="bigText centerText paddingTop40px">The challenge.</p>
+        <p id="welcomeText" class="mediumText centerText welcomeHeaderDescription">Enter up to ten letters from the English Alphabet</p>
+        <div id="formArea">
+          <form onsubmit="return false">
+            <input onkeydown = "if (event.keyCode == 13)
+                        document.getElementById('doIT').click()" class="box" id="inputForm" type="text">
+            <button class="box mediumText" type="button" onClick="updateView()" id="doIT">Calculate</button>
+          </form>
+          <p id="result"></p>
+        </div>
+    </div>
+  </body>
+	<script src="requiredFiles/BetterCaseWithRegex_.js"></script>
+</html>
