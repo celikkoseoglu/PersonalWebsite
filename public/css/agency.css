@@ -351,10 +351,6 @@ footer span.copyright {
     text-transform: none
 }
 
-ul.social-buttons {
-    margin-bottom: 0
-}
-
 ul.social-buttons li a {
     display: block;
     background-color: transparent;
