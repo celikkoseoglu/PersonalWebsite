@@ -619,16 +619,6 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-header {
-    background: url(../images/the_wall.JPG) scroll center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    text-align: center;
-    color: #fff
-}
-
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px
