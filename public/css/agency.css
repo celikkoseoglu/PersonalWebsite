@@ -152,37 +152,6 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fec503
 }
 
-@media (min-width: 768px) {
-    .navbar-default {
-        background-color: transparent;
-        padding: 25px 0;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-        border: 0
-    }
-
-    .navbar-default .navbar-brand {
-        font-size: 2em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s
-    }
-
-    .navbar-default .navbar-nav > .active > a {
-        border-radius: 3px
-    }
-
-    .navbar-default.navbar-shrink {
-        background-color: #222;
-        padding: 10px 0
-    }
-
-    .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em
-    }
-}
-
 header {
     background: url(../images/wall.jpg) scroll center center;
     -webkit-background-size: cover;
