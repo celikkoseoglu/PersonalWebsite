@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background: url(../images/the_wall.jpg) scroll center center;
+    background: url(../images/wall.jpg) scroll center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
