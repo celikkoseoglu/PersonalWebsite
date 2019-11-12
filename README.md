@@ -6,7 +6,7 @@ This project is deprecated since 12.11.2019. Please refer to https://github.com/
 
 #### https://celikk.me
 
-So I've started project many years ago thinking I should start a personal brand going. I've initially started the project using pure HTML and CSS and the site looked terrible.
+So I've started project many years ago thinking I should start a personal brand going. I've initially started the project using pure HTML/CSS and the site looked terrible.
 
 After getting some experience with HTML and CSS I was made aware of Twitter's Bootstrap, so I downloaded a template off the net and started modifying it. Soon after it become a full fledged personal website which looked good for it's date.
 
