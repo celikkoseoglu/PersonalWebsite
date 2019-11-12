@@ -8,7 +8,7 @@ This project is deprecated since 12.11.2019. Please refer to https://github.com/
 
 So I've started project many years ago thinking I should start a personal brand going. I've initially started the project using pure HTML/CSS and the site looked terrible.
 
-After getting some experience with HTML and CSS I was made aware of Twitter's Bootstrap, so I downloaded a template off the net and started modifying it. Soon after it become a full fledged personal website which looked good for it's date.
+After getting some experience with HTML and CSS I was made aware of Twitter's Bootstrap, so I downloaded a template off the net and started modifying it. Soon after, it become a full fledged personal website which looked good for its date.
 
 So I kept on updating and updating it as time went by. At first, this website wasn't in a git repo because git was too complicated for me at the time. I've created a git repo in 2016 and pushed it to GitHub. So some of its history is lost.
 
