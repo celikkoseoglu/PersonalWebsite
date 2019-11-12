@@ -4,3 +4,4 @@
 .idea
 .firebase/
 **/.firebase-debug.log
+package-lock.json
