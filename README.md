@@ -2,6 +2,11 @@
 
 This project is deprecated since 12.11.2019. Please refer to https://github.com/celikkoseoglu/celikk-personal-website to see my latest Personal Website project.
 
+Wondering how this website looked?
+
+- [Desktop Screenshot](https://raw.githubusercontent.com/celikkoseoglu/personalwebsite/master/public/screenshots/personal-website-desktop.png)
+- [Mobile Screenshot](https://raw.githubusercontent.com/celikkoseoglu/personalwebsite/master/public/screenshots/personal-website-mobile.png)
+
 # Personal Website
 
 #### https://celikk.me
