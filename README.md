@@ -23,4 +23,4 @@ Long story short, this repo will have my personal website. Watch my website chan
 
 1. Make sure you have `firebase-tools` installed via npm
 2. Then do `firebase serve` to test locally
-3. You could try doing a `firebase serve` and follow the instructions to push this online!
+3. You could try doing a `firebase deploy` and follow the instructions to push this online!
